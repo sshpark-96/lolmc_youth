@@ -55,10 +55,17 @@ html{
     font-family: 'Roboto', sans-serif;
 }
 
+html::-webkit-scrollbar{
+    width: 0;
+    background: transparent;
+}
+
 body{
     display: flex;
     flex-direction: column;
     align-items: center;
+    position: relative;
+    min-height: 100vh;
 }
 
 a{
@@ -169,24 +176,51 @@ nav{
 
 
 /* ----------------------------------------------- */
-.section_1{
-    height: 40vh;
-    width: 100vw;
+.section{
+    min-height: 40vh;
+    width: 100%;
     display: flex;
     justify-content: center;
     align-items: center;
 }
 
-.section_1 span{}
-
+.section span{
+    width: 80%;
+    text-align: center;
+}
 
 
 
 
 .parallax_1{
-    height: 30vh;
-    width: 100vw;
+    min-height: 35vh;
+    width: 100%;
     background-image: url('../img/aaron-burden-9zsHNt5OpqE-unsplash.jpg');
+    background-attachment: fixed;
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position: bottom;
+    background-color: white;
+
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    filter: grayscale(40%);
+}
+
+.parallax_1 span{
+    color: white;
+    text-align: center;
+    width: 80%;
+    padding: 50px 50px;
+    font-size: 2vw;
+    background-color: rgba(0,0,0,.5);
+}
+
+.parallax_2{
+    min-height: 35vh;
+    width: 100%;
+    background-image: url('../img/KakaoTalk_20220404_172239257.jpg');
     background-attachment: fixed;
     background-size: cover;
     background-repeat: no-repeat;
@@ -199,11 +233,55 @@ nav{
     filter: grayscale(40%);
 }
 
-.parallax_1 span{
+.parallax_2 span{
     color: white;
     text-align: center;
-    width: 80vw;
+    width: 80%;
     padding: 50px 50px;
     font-size: 2vw;
     background-color: rgba(0,0,0,.5);
 }
+
+.parallax_3{
+    height: 100vh;
+    width: 100%;
+    background-image: url('../img/sven-pieren-npl_R94xGZA-unsplash.jpg');
+    background-attachment: fixed;
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position-y: 60%;
+    background-color: white;
+
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    filter: grayscale(40%);
+}
+
+.parallax_3 span{
+    position: relative;
+    top: -10%;
+    color: white;
+    text-align: center;
+    width: fit-content;
+    padding: 25px 25px;
+    font-size: 1.5vw;
+    background-color: rgba(0,0,0);
+    transition: 250ms;
+}
+
+.parallax_3 span:hover{
+    transform: scale(1.3);
+}
+
+footer{
+    padding-top: 25px;
+    text-align: center;
+    position: absolute;
+    bottom: 0;
+    height: 4rem;
+    width: 100%;
+    background-color: rgba(0,0,0,.8);
+    color: white;
+}
+
