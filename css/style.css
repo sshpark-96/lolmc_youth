@@ -50,6 +50,10 @@ table {
 
 /* **** START OF STYLING **** */
 
+html{
+    overflow-x: hidden;
+    font-family: 'Roboto', sans-serif;
+}
 
 body{
     display: flex;
@@ -92,6 +96,14 @@ nav{
     width: 80%;
 }
 
+.sns_icons a svg{
+    transition: 200ms;
+}
+
+.sns_icons a svg:hover{
+    transform: scale(1.2);
+}
+
 .nav_list{
     display: flex;
     justify-content: center;
@@ -124,23 +136,22 @@ nav{
 /* ******** Main Content ******** */
 .welcome{
     z-index: 4;
-    height: 80vh;
+    height: 60vh;
     width: 100vw;
-    background-image: url('../img/IMG_8726.cr2.jpg');
+    background-image: url('../img/IMG_8726.cr2.png');
     background-attachment: fixed;
     background-size: cover;
     background-repeat: no-repeat;
     background-position: center;
     background-color: white;
-    filter: blur(1px);
-    
+    filter: grayscale(40%);
 }
 
 .welcome_text{
     position: absolute;
     top: 8vh;
     z-index: 5;
-    height: 80vh;
+    height: 60vh;
     width: 100vw;
     color: white;
     display: flex;
@@ -152,6 +163,47 @@ nav{
     width: 80vw;
     padding: 50px 50px;
     font-size: 2vw;
-    background-color: rgba(0,0,0,.6);
-    font-family: 'Roboto', sans-serif;
+    background-color: rgba(0,0,0,.5);
+}
+
+
+
+/* ----------------------------------------------- */
+.section_1{
+    height: 40vh;
+    width: 100vw;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.section_1 span{}
+
+
+
+
+
+.parallax_1{
+    height: 30vh;
+    width: 100vw;
+    background-image: url('../img/aaron-burden-9zsHNt5OpqE-unsplash.jpg');
+    background-attachment: fixed;
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position: center;
+    background-color: white;
+
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    filter: grayscale(40%);
+}
+
+.parallax_1 span{
+    color: white;
+    text-align: center;
+    width: 80vw;
+    padding: 50px 50px;
+    font-size: 2vw;
+    background-color: rgba(0,0,0,.5);
 }
