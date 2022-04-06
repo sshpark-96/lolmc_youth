@@ -2,7 +2,7 @@
 .welcome{
     height: 60vh;
     width: 100vw;
-    background-image: url('../img/banner.jpg');
+    background: url('../img/banner.jpg');
     background-attachment: fixed;
     background-size: cover;
     background-repeat: no-repeat;
@@ -53,7 +53,7 @@
 .parallax_1{
     min-height: 35vh;
     width: 100%;
-    background-image: url('../img/bible.jpg');
+    background: url('../img/bible.jpg');
     background-attachment: fixed;
     background-size: cover;
     background-repeat: no-repeat;
@@ -80,7 +80,7 @@
 .parallax_2{
     min-height: 35vh;
     width: 100vw;
-    background-image: url('../img/KakaoTalk_20220404_172239257.jpg');
+    background: url('../img/KakaoTalk_20220404_172239257.jpg');
     background-attachment: fixed;
     background-size: cover;
     background-repeat: no-repeat;
@@ -107,7 +107,7 @@
 .parallax_3{
     height: 100vh;
     width: 100vw;
-    background-image: url('../img/sven-pieren-npl_R94xGZA-unsplash.jpg');
+    background: url('../img/sven-pieren-npl_R94xGZA-unsplash.jpg');
     background-attachment: fixed;
     background-size: cover;
     background-repeat: no-repeat;
