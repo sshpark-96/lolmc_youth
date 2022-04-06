@@ -1,0 +1,17 @@
+body{
+    position: relative;
+    min-height: 100%;
+}
+
+footer{
+    position: absolute;
+    left: 0;
+    bottom: 0;
+    padding-top: 25px;
+    text-align: center;
+    height: 50px;
+    width: 100%;
+    background-color: rgba(0,0,0,.8);
+    color: white;
+    overflow: hidden;
+}

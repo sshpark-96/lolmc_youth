@@ -51,10 +51,18 @@ table {
 
 
 /* ********************************** */
+html{
+}
+
 body{
     font-family: 'Roboto', sans-serif;
 }
 nav{
+    background: white;
+    z-index: 2;
+    position: sticky;
+    top: 0;
+    left: 0;
     display: flex;
     justify-content: space-between;
     align-items: center;
@@ -65,23 +73,45 @@ nav>*{
     padding: 15px;
 }
 
-#mobile_menu{
-    background-color: rgba(0, 0, 0, .1);
+.hamburger_menu{
+    display: flex;
+    justify-content: center;
+    align-items: center;
 }
 
-#mobile_menu li{
+.mobile_menu{
+    background-color: rgb(255, 255, 255);
+    transition: 500ms;
+    position: fixed;
+    right: -100%;
+    opacity: 0;
+    width: 100%;
+    z-index: 2;
+}
+
+.mobile_menu li{
     padding: 25px 0 25px 35px;
 }
 
-#mobile_menu_sns{
+.mobile_menu_sns{
     display: flex;
     gap: 5%;
     align-items: center;
 }
 
+
 .sns_icons{
     width: 30px;
 }
+
+.open{
+    right: 0;
+    opacity: 1;
+}
+
+
+
+
 
 /* mobile menu for larger mobile devices */
 .larger_mobile{

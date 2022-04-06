@@ -1,12 +1,3 @@
-import './css/index.css';
-
-import { navigation } from './pages/nav';
-import { welcome } from './pages/welcome';
-
-import { footer } from './pages/footer';
-
-
-
 
 
 const mobile_menu = document.querySelector(".mobile_menu");
