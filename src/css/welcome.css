@@ -4,7 +4,7 @@
     width: 100vw;
     background: url('../img/banner.jpg');
     background-attachment: fixed;
-    background-size: cover;
+    background-size: auto 100vh;
     background-repeat: no-repeat;
     background-position: center;
     background-color: white;
@@ -55,7 +55,7 @@
     width: 100%;
     background: url('../img/bible.jpg');
     background-attachment: fixed;
-    background-size: cover;
+    background-size: auto 100vh;
     background-repeat: no-repeat;
     background-position: bottom;
     background-color: white;
@@ -82,7 +82,7 @@
     width: 100vw;
     background: url('../img/KakaoTalk_20220404_172239257.jpg');
     background-attachment: fixed;
-    background-size: cover;
+    background-size: auto 100vh;
     background-repeat: no-repeat;
     background-position: center;
     background-color: white;
@@ -109,7 +109,7 @@
     width: 100vw;
     background: url('../img/sven-pieren-npl_R94xGZA-unsplash.jpg');
     background-attachment: fixed;
-    background-size: cover;
+    background-size: auto 100vh;
     background-repeat: no-repeat;
     background-position-y: 60%;
     background-color: white;
