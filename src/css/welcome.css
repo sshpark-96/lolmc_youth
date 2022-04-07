@@ -35,7 +35,7 @@
 /* ----------------------------------------------- */
 .section{
     min-height: 40vh;
-    width: 100%;
+    width: 100vw;
     display: flex;
     justify-content: center;
     align-items: center;
@@ -52,7 +52,7 @@
 
 .parallax_1{
     min-height: 35vh;
-    width: 100%;
+    width: 100vw;
     background: url('../img/bible.jpg');
     background-attachment: fixed;
     background-size: auto 100vh;
@@ -64,8 +64,6 @@
     justify-content: center;
     align-items: center;
     filter: grayscale(40%);
-
-    transition: height 999999s;
 }
 
 .parallax_1 span{
@@ -91,8 +89,6 @@
     justify-content: center;
     align-items: center;
     filter: grayscale(40%);
-
-    transition: height 999999s;
 }
 
 .parallax_2 span{
@@ -118,8 +114,6 @@
     justify-content: center;
     align-items: center;
     filter: grayscale(40%);
-
-    transition: height 999999s;
 }
 
 .parallax_3 span{
