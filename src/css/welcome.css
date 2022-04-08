@@ -64,18 +64,33 @@
     font-family: "Source Sans Pro", sans-serif;
 }
 
-strong{
-    font-weight: bold;
-}
-
-
-
 .section span{
     width: 90%;
     text-align: center;
 }
 
+strong{
+    font-weight: bold;
+    font-size: 1.4rem;
+}
 
+.calling{
+    width: 100%;
+    margin-bottom: 5vh;
+}
+
+.calling_img{
+    width: 100%;
+}
+
+.calling_img img{
+    width: 60%;
+    border-radius: 50%;
+}
+
+.calling p{
+    margin: 5%;
+}
 
 
 .parallax_1{
