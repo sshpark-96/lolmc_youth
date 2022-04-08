@@ -66,8 +66,12 @@ const welcome = (()=>{
         </div>
         <div class="section">
             <span>
-                What the heck do I put in this section down here?
-                OMG
+                <h2>
+                <strong>Follow my example, as I follow the example of Christ.<br> - 1 Corinthians 11:1</strong>
+                </h2>
+                <p>
+                    We believe that the greatest form of outreach is to live out the lifestyle of worship, so that we can be an example for others to follow. Through living a holy lifestyle, we believe that we will be able to lead those around us to also see the light of Christ.
+                </p>
             </span>
         </div>
         <div class="parallax_3">
