@@ -1,5 +1,8 @@
 import '../css/welcome.css';
 
+import pic_one from '../img/love_god.jpg';
+import pic_two from '../img/love_neighbor.jpg';
+
 const welcome = (()=>{
     const body = document.querySelector("body");
     body.innerHTML += `
@@ -36,8 +39,7 @@ const welcome = (()=>{
                     We Believe We Are Called To...
                 </h2>
                 <div class="calling">
-                     <div class="calling_img">
-                         <img src="./src/img/love_god.jpg" alt="">
+                     <div class="calling_img img_1">
                      </div>
                      <p>
                          <strong>Love God</strong>
@@ -46,8 +48,7 @@ const welcome = (()=>{
                      </p>
                 </div>
                 <div class="calling">
-                     <div class="calling_img">
-                      <img src="./src/img/love_neighbor.jpg" alt="">
+                     <div class="calling_img img_2">
                      </div>
                      </div>
                      <p>
@@ -76,6 +77,17 @@ const welcome = (()=>{
         </div>
     </main>
     `;
+
+    const first_pic = new Image();
+    first_pic.src = pic_one;
+    const img_1 = document.querySelector(".img_1");
+    img_1.appendChild(first_pic);
+
+    const second_pic = new Image();
+    second_pic.src = pic_two;
+    const img_2 = document.querySelector(".img_2");
+    img_2.appendChild(second_pic);
+
 })();
 
 export {welcome};
